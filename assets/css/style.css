@@ -1,0 +1,41 @@
+
+
+*{
+    
+
+    color: #ffffff;
+
+    text-align: center;
+}
+
+body{
+    background: #000000;
+}
+
+header{
+    margin-top: 50px;
+
+    margin-bottom: 100px;
+}
+
+img{
+    width: 210px;
+
+    padding: 20px;
+}
+
+p{
+    margin: 25px auto 25px auto;
+}
+
+.col-3-lg{
+    width: 25%;
+}
+
+#wins{
+    color: #55ff55;
+}
+
+#losses{
+    color: #ff5555;
+}

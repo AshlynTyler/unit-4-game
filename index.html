@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Gem Game
+        </title>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <div class = "container">
+            <header>
+                <h1>Gem Game</h1>
+            </header>
+
+            <div class = "row">
+                <p>
+                    Hello!  Welcome to the gem game!
+                </p>
+            </div>
+
+            <div class = "row">
+
+                <p id = "info">
+                    Each gem has a random specific value.  Click the gems to get gem points.  Match the number below exactly to win!
+                </p>
+            
+            </div>
+
+            <div class = "row">
+                <p id = "game-over">
+                    ___
+                </p>
+            </div>
+
+            <div class = "row">
+
+                <p>
+                    Gem Points:
+                </p>
+            </div>
+
+            <div class = "row">
+
+                <p id = "points"></p>
+
+
+            </div>
+
+            <div class = "row">
+                    <p id = "wins">wins: 0</p>
+                    <p id = "losses">losses: 0</p>
+            </div>
+
+            <div class = "row">
+                <div class = "col-3-lg">
+                    <img src = "assets/images/ruby.png" id = "ruby" class = "gem" value = "0">
+                </div>
+                
+                <div class = "col-3-lg">
+                    <img src = "assets/images/emerald.jpg" id = "emerald" class = "gem" value = "0">
+                </div>
+                <div class = "col-3-lg">
+                    <img src = "assets/images/sapphire.jpg" id = "sapphire" class = "gem" value = "0">
+                </div>
+                <div class = "col-3-lg">
+                    <img src = "assets/images/diamond.png" id = "diamond" class = "gem" value = "0">
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src = "./assets/javascript/game.js"></script>
+    </body>
+</html>
